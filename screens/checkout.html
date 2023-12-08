@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Checkout</title>
+  </head>
+  <body>
+    <!-- Header: navicon, page title and ninja image  -->
+    <header id="header">
+      <nav id="nav">
+        <img src="../assets/navicon.svg" alt="navicon" id="navicon" />
+        <div id="navbar">
+          <ul id="nav-items">
+            <li id="nav-item"><a href="../index.html">Poster Shop</a></li>
+            <li id="nav-item"><a href="checkout.html">Checkout</a></li>
+          </ul>
+          <button id="close-icon">X</button>
+        </div>
+      </nav>
+      <h1>Checkout</h1>
+      <img class="ninjahead" src="../assets/ninjahead.svg" alt="ninjahead" />
+    </header>
+
+    <!-- main, checkout items and description -->
+    <main>
+      <div class="container">
+        <h3 class="checkout-subtitle">Varor i korg</h3>
+        <!-- group of medium cards for checkout -->
+        <section class="medium-cards">
+          <!-- one medium card for checkout -->
+            <div class="medium-card">
+              <img class="card-img" src="../assets/char-7.png" alt="Fotograf" />
+              <h3 class="card-title">Fotograf</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium magni atque animi qui dignissimos dolor corrupti
+                inventore quos architecto, deserunt perferendis nulla!
+              </p>
+              <button class="card-btn">oh, take my money!</button>
+            </div>
+            <div class="medium-card">
+              <img class="card-img" src="../assets/char-9.png" alt="Nerd" />
+              <h3 class="card-title">Personlig tränare</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+                repellat voluptas vitae iste et, rerum veritatis, aliquam
+                exercitationem accusantium sit asperiores qui incidunt!
+              </p>
+              <button class="card-btn">oh, take my money!</button>
+          </div>
+        </section>
+        <!-- checkout items info, poster, quantity, price, total  -->
+        <section class="checkout">
+          <div class="checkout-header">
+            <p>Vara</p>
+            <span>Antal</span>
+            <span>Pris</span>
+          </div>
+          <div class="checkout-items">
+            <div class="checkout-item">
+              <p class="product">Poster Fotograf</p>
+              <span class="quantity">1</span>
+              <span class="price">179 sek</span>
+            </div>
+            <div class="checkout-item">
+              <p class="product">Poster Crossfit</p>
+              <span class="quantity">1</span>
+              <span class="price">179 sek</span>
+            </div>
+          </div>
+          <div class="checkout-total">
+            <p>Totalt</p>
+            <span>358 sek</span>
+          </div>
+          <div class="btn-container">
+            <button>Gimmie gimmie gimmie!</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- footer  -->
+    <footer>
+      <div class="container">
+        <div class="footer-groups">
+          <div class="nav-group">
+            <h3>Nav</h3>
+            <nav>
+              <a href="#">Products</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+          <div class="address-group">
+            <h3>Address</h3>
+            <p>Plinkeplonkvägen 32</p>
+            <p>888 81 klonkberga</p>
+          </div>
+          <div class="social-media-group">
+            <h3>Social media</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="../assets//logo-twitter.svg" alt="twitter"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets//logo-facebook.svg" alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets//logo-linkedin.svg" alt="linkedin"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="../assets//logo-instagram.svg" alt="instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../script.js"></script>
+  </body>
+</html>
