@@ -9,9 +9,11 @@
 
 body {
     background-color: black;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /*font-family: Verdana, Geneva, Tahoma, sans-serif;
-    */
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+*/
 }
 
 .container {
@@ -20,42 +22,42 @@ body {
 }
 
 button {
-    background-color: #E83F57;
-    color: #ffffff;
+    background-color: #d8233f;
+    color: white
     border-radius: .2rem;
-    cursor: pointer;
     border: none;
     outline: none;
 }
 
 /* Header  */
 header {
-    background-color: #3DE07E ;
+    background-color: #10d25d ;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    height: 400px;
+    height: 300px;
+    cursor: pointer;
 }
 /* nav icon  */
 header #navicon {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 2px;
+    padding: 2px;
     cursor: pointer;
 }
-/* page title, Poster Shop  */
+/* Title :Poster Shop  */
 header h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 60px;
 }
 /* Ninjahead image  */
 header .ninjahead {
     justify-self: center;
     align-self: flex-end;
-    max-width: 200px;
+    max-width: 220px;
 }
 
 /* main  */
 main {
- margin: 5rem 0;
+ margin: 26px;
 }
 
 /* small-cards section  */
@@ -63,7 +65,7 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(260px, 30%));
     justify-content: space-around;
-    gap: 1rem 2rem;
+    gap: 2rem 2rem;
 }
 
 
@@ -118,33 +120,33 @@ main {
 
 .medium-card .card-title {
     font-size: 2rem;
-    color: #000000;
+    color: black;
     margin: 0 1rem;
 }
 
 .medium-card .card-text {
-    color: #000000;
+    color: black;
     margin: 1rem 1rem 3rem;
 }
 
 .medium-card .card-btn {
     width: 170px;
-    padding: 1rem;
-    margin: 1rem;
-    font-size: .8rem;
+    padding:8px;
+    margin: 14px;
+    font-size:10px;
 }
 
 /* footer  */
 footer {
-    background-color: #333333 ;
-    padding: 3rem 3rem 6rem;
+    background-color:#363434 ;
+    padding: 10px  8px 10px;
 }
 
 .footer-groups {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 30%));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
     justify-content: space-between;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .nav-group nav {
@@ -153,17 +155,17 @@ footer {
 
 .nav-group nav a {
     text-decoration: none;
-    color: #ffffff;
+    color: whitesmoke
 }
 
 footer h3 {
     font-size: 2rem;
-    color: #ffffff;
+    color:whitesmoke
     margin-bottom: 1rem;
 }
 
 footer p{
-    color: #ffffff;
+    color: whitesmoke
 }
 
 footer ul {
@@ -178,17 +180,17 @@ footer ul li {
     cursor: pointer;
 }
 
-/* chaeckout screen  */
+/* checkout screen  */
 
 .checkout-subtitle {
-    color: #ffffff;
+    color: white;
     font-size: 2rem;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 .checkout {
-    color: #ffffff;
+    color: whitesmoke
     display: grid;
     grid-template-rows: auto auto auto;
     margin: 1rem;
@@ -200,6 +202,7 @@ footer ul li {
     grid-template-columns: auto auto auto;
     justify-content: space-between;
     margin: 1rem;
+  
 }
 
 .checkout-total {
@@ -210,7 +213,7 @@ footer ul li {
 }
 
 .checkout-header {
-    background-color:  #2F0B0B;
+    background-color:  #550707;
     padding: .5rem 0;
 }
 
